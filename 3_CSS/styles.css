@@ -120,7 +120,7 @@ h2 {
 
 /* BG image */
 .bg-image {
-  background-image: url("../img/nature.jpg");
+  background-image: url("../3_CSS/img/bridge.jpg");
   padding: 10px;
   color: #fff;
 }
@@ -130,7 +130,7 @@ h2 {
 .centered-bg {
   height: 400px;
   width: 400px;
-  background-image: url("../img/bridge.jpg");
+  background-image: url("../3_CSS/img/nature.jpg");
 }
 
 .centered-bg {
