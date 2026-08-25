@@ -6,9 +6,14 @@
 --cor5: #23B14D
 */
 :root{
-    --main-color: #d3ad7f;
+    /*--main-color: #d3ad7f;
     --black: #13131a;
-    --bg: #0071BD;
+    --bg: #0071BD;*/
+    --cor1: #00A6D6;
+    --cor2: #008F4D;
+    --cor3: #0071BD;
+    --cor4: #FFFFFF;
+    --cor5: #23B14D;
     --border: 0.1rem solid rgba(255,255,255,0.3);
     font-size: 20px;
 }
@@ -26,6 +31,7 @@ section {
     padding: 5rem 3rem;
     margin:4 auto;
     max-width: 1200px;
+
 }
 .header {
     position: fixed;
@@ -35,10 +41,11 @@ section {
     z-index: 99;
     transition: 0.2s linear;
     font-family: "Roboto", sans-serif;
+    color: (--boder);
 }
-body{
-    background-color: var(--bg);
-}
+/*body{
+    background-color: var(--cor3);
+}*/
 
 .header section {
     display: flex;
@@ -55,26 +62,27 @@ body{
 }
 
 .navbar a:hover {
-   color: var(--main-color);
+   color: var(--cor1);
    border-bottom: 0.1rem solid var(--main-color);
    padding-bottom: 0.5rem;
    font-size: 2rem;
 }
 
-/*.home-container {
+.home-container {
     background: url("../img/imagem\ da\ igreja.jpg");
     background-position: center;
     background-size: cover;
-}*/
+    opacity: 0.2;
+}
 
-.home-container section {
+.home-container section{
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .content {
-    max-width: 500rem;
+    max-width: 800rem;
 }
 
 .content h1 {
@@ -85,7 +93,7 @@ body{
 .content p {
     color: #fff;
     font-size: 20px;
-    font-weight: 100;
-    line-height: 1.8;
-    padding: 1rem 0;
+    font-weight: 90px;
+    line-height: 20px;
+    padding: 10px 0;
 }
