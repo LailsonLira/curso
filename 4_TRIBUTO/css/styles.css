@@ -8,7 +8,7 @@
 :root{
     --main-color: #d3ad7f;
     --black: #13131a;
-    --bg: #F2F2F2;
+    --bg: #0071BD;
     --border: 0.1rem solid rgba(255,255,255,0.3);
     font-size: 20px;
 }
@@ -51,21 +51,21 @@ body{
 .navbar a {
     margin: 0 1rem;
     font-size: 1.5rem;
-    color: #0477BF;
+    color: #FFFFFF;
 }
 
-/*.navbar a:hover {
+.navbar a:hover {
    color: var(--main-color);
    border-bottom: 0.1rem solid var(--main-color);
    padding-bottom: 0.5rem;
    font-size: 2rem;
-}*/
+}
 
-.home-container {
+/*.home-container {
     background: url("../img/imagem\ da\ igreja.jpg");
     background-position: center;
     background-size: cover;
-}
+}*/
 
 .home-container section {
     display: flex;
